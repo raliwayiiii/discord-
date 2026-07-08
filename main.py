@@ -141,7 +141,7 @@ async def on_ready():
 @bot.tree.command(name="1", description="認証パネルを表示します")
 async def verify(interaction: discord.Interaction):
 
-    WEB_URL = f'https://ee75e427-f9eb-4dc7-ab6c-ab9a51d96137-00-3sisgu8cftcrg.pike.replit.dev/1.html'
+    WEB_URL = f'https://Discord-bot.up.raliway.app/1.html'
     button = discord.ui.Button(label="認証して参加する", style=discord.ButtonStyle.primary, url=WEB_URL)
     view = discord.ui.View()
     view.add_item(button)
